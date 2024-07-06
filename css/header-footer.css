@@ -1,0 +1,117 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+div, section, span, ul, li, a, header {
+  box-sizing: border-box;
+}
+
+/* Top header style */
+.logo {
+  width: 300px;
+  height: 100px;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+
+  .logo {
+    width: 180px;
+    height: 50px;
+  }
+
+  .center-text p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    width: 250px;
+    justify-content: flex-end;
+    transform: translateY(-80%);
+  }
+
+  .hide-icons {
+      display: none;
+  }
+}
+
+.center-text {
+  color: #0E0709;
+  transform: translateY(35%);
+  font-size: 14px;
+  font-weight: light;
+  letter-spacing: 7px;
+}
+
+.icon-container svg {
+  color: #FF5F90;
+  align-items: center;
+  margin: 1px;
+}
+
+/* Bottom header style */
+.navbar {
+  color: #FFFFFF;
+  background-color: #FF5F90;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  transform: translateX(90px);
+}
+
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link {
+  color: #0E0709;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .nav-cert-container {
+    transform: translateX(20%);
+  }
+}
+
+.nav-cert-container {
+  position: relative;
+  overflow: hidden;
+  /* transform: translateX(-2%); */
+}
+
+.nav-cert {
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 15px;
+  padding: 15px 20px;
+  background-color: #FFFFFF; 
+  border-radius: 5px;
+}
+
+.nav-cert:hover {
+  background-color: #ffffffa4;
+}
+
+.nav-cert-text {
+  display: inline-block;
+  color: #FF5F90;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.nav-cert-text:hover {
+  color: #0E0709;
+}
+
+button {
+  display: block;
+  transform: translateX(320px);
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
