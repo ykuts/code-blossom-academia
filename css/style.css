@@ -102,3 +102,25 @@ a:hover {
     margin-bottom: 0;
     font-weight: 400;
 }
+
+.courses-section {
+    position: relative;
+    z-index: 0;
+}
+
+.courses {
+    width: 100%;
+    background: #fff;
+    padding: 30px 30px 40px 30px;
+    transition: all 0.3s ease;
+}
+
+.courses .text {
+    width: calc(100% - 80px);
+    padding-left: 20px;
+}
+
+.courses .text p.lec {
+    font-weight: 500;
+    font-size: 13px;
+}
