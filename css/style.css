@@ -115,6 +115,13 @@ a:hover {
     transition: all 0.3s ease;
 }
 
+.courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .courses .text {
     width: calc(100% - 80px);
     padding-left: 20px;
