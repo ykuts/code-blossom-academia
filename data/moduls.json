@@ -21,7 +21,7 @@
             "Applying styles to HTML elements"
         ],
         "duration": "3 weeks",
-        "src": "/assets/icons/public.svg"
+        "src": "/assets/icons/html.svg"
     },
     {
         "id": 3,
@@ -34,7 +34,7 @@
             "Hosting websites on platforms like GitHub Pages"
         ],
         "duration": "2 weeks",
-        "src": "/assets/icons/public.svg"
+        "src": "/assets/icons/git.svg"
     },
     {
         "id": 4,
@@ -47,7 +47,7 @@
             "Basic DOM manipulation"
         ],
         "duration": "3 weeks",
-        "src": "/assets/icons/public.svg"
+        "src": "/assets/icons/js.svg"
     },
     {
         "id": 5,
@@ -59,7 +59,7 @@
             "Understanding ES6+ features"
         ],
         "duration": "4 weeks",
-        "src": "/assets/icons/public.svg"
+        "src": "/assets/icons/js-adv.svg"
     },
     {
         "id": 6,
@@ -71,7 +71,7 @@
             "Routing in single-page applications"
         ],
         "duration": "4 weeks",
-        "src": "/assets/icons/public.svg"
+        "src": "/assets/icons/code.svg"
     },
     {
         "id": 7,
@@ -84,7 +84,7 @@
             "Authentication and authorization"
         ],
         "duration": "5 weeks",
-        "src": "/assets/icons/public.svg"
+        "src": "/assets/icons/braces.svg"
     },
     {
         "id": 8,
@@ -97,6 +97,6 @@
             "Deploying the application"
         ],
         "duration": "4 weeks",
-        "src": "/assets/icons/public.svg"
+        "src": "/assets/icons/qr-code.svg"
     }
 ]
