@@ -34,7 +34,7 @@ function displayCourses(moduls) {
                                         <li>Understanding HTTP, HTTPS</li>
                                     </ul>
                                     
-                                    <p class="lec"><a href="#">Duration: 3 days</a></p>
+                                    <p class="lec"><a href="#">${course.duration}</a></p>
                                 </div>
                             </div>
                             
