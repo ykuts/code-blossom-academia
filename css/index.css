@@ -262,11 +262,11 @@ a.btn-secondary {
   border-radius: 5px;
 }
 /* right column */
-.services-wrap {
+/* .services-wrap {
   background-color: #E0E6E5;
   padding: 20px;
-  /* transition: background-color 0.3s ease; */
-}
+  transition: background-color 0.3s ease;
+} */
 
 /* right column */
 /* .services:hover {
