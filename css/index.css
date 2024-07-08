@@ -194,7 +194,7 @@ a.btn-secondary {
   font-size: 14px;
 }
 
-/* Media query for mobile screens */
+/* small screen for hero */
 @media screen and (max-width: 768px) {
   .hero-container {
     &::before {
@@ -226,7 +226,7 @@ a.btn-secondary {
   }
 }
 
-/* Media query for subheading & h2 main content */
+/* small screen for subheading & h2 main content */
 @media screen and (max-width: 768px) {
   .main-subheading {
     display: grid;
@@ -252,7 +252,8 @@ a.btn-secondary {
 }
 
 /* styles for feature */
-.ft-img {
+/* left column */
+.ft-img { 
   height: 80%;
   transform: translateY(15%);
   background-size: cover;
@@ -260,6 +261,17 @@ a.btn-secondary {
   background-position: center center;
   border-radius: 5px;
 }
+/* right column */
+.services-wrap {
+  background-color: #E0E6E5;
+  padding: 20px;
+  /* transition: background-color 0.3s ease; */
+}
+
+/* right column */
+/* .services:hover {
+  background-color: #FF5F90;
+} */
 
 .ft-subheading {
   display: grid;
@@ -279,7 +291,30 @@ h2 {
   width: 30%;
   margin: 20px;
   padding-right: 20px;
+  /* color: #FF5F90; */
 }
+
+/* .ft-icon:hover svg {
+  color: #E0E6E5;
+}
+
+.services .text h4 {
+  color: #0E0709;
+  transition: color 0.3s ease;
+}
+
+.services:hover .text h4 {
+  color: #E0E6E5;
+}
+
+.services .text p {
+  color: #0E0709;
+  transition: color 0.3s ease;
+}
+
+.services:hover .text p {
+  color: #E0E6E5;
+} */
 
 /* small screen for feature */
 @media screen and (max-width: 768px) {
@@ -299,6 +334,7 @@ h2 {
 /* styles for course */
 .services {
   width: 100%;
+  height: 100%;
   background-color: #E0E6E5;
   padding: 30px 20px;
   border-radius: 4px;
@@ -315,6 +351,11 @@ a {
 .h3-course {
   font-size: 20px;
   color: #0E0709;
+  width: 230px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .h3-course:hover {
@@ -331,31 +372,36 @@ a {
   color: #FFFFFF;
 }
 
-.course-icon img {
+/* .course-icon img {
   background-image: url(links/braces.svg);
   width: 30%;
   padding: 5px;
-}
+} */
 
 .course-icon svg:hover {
   color: #FFFFFF;
 }
-
+/* small screen course */
 @media screen and (max-width: 768px) {
   .services {
     padding: 30px 20px;
     margin-bottom: 10px;
   }
 
-  .course-icon img {
-    /* transform: translateX(270%); */
+  /* .course-icon img {
+    transform: translateX(270%);
     width: 20%;
     margin-top: 10px;
+    margin-bottom: 10px;
+  } */
+
+  .h3-course {
+    transform: translateX(-5%);
+    width: 300px;
   }
 }
 
 /* style for testimonial */
-
 a.testimonial {
   background: #E0E6E5;
   margin-left: 10px;
@@ -393,8 +439,9 @@ a.testimonial {
 /* small screen for testimonial */
 @media screen and (max-width: 768px) {
   a.testimonial {
-    width: 250%;
-    margin: 2px;
+    width: 150%;
+    margin: 5px;
+    transform: translateX(-10%);
   }
 
   .avatar-icon img {
@@ -402,14 +449,14 @@ a.testimonial {
   }
 
   .p-testimonial {
+    display: flex;
     text-align: center;
     width: 250px;
-    margin: 50px;
+    margin: 30px;
   }
 }
 
 /* contact page */
-
 .contact-hero {
   height: 50vh;
   position: relative;
@@ -458,6 +505,62 @@ a.testimonial {
 .contact-btn {
   transform: translateX(200%);
   color: #FFFFFF;
+}
+
+h4.contact, .icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.icon-container svg{
+  margin: 3px;
+}
+
+/* small screen contact page */
+@media screen and (max-width: 768px) {
+  .contact-btn {
+    transform: translateX(50%);
+  }
+
+  .icon-container svg{
+    display: none;
+  }
+
+  h2.text-center {
+    font-size: 30px;
+  }
+
+  .contact-title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  /* .contact-subheading {
+    display: flex;
+    transform: translate(30%, -5%);
+    width: 50px;
+  }
+  
+  .contact-current {
+    display: flex;
+    transform: translate(48%, -390%);
+  } */
+
+  .contact-hero {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff2f;
+    }
+  }
 }
 
 /* style for footer */
