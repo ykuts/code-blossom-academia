@@ -1,0 +1,18 @@
+$primary: #FF5F90;
+$body-font-family: 'Poppins';
+$secondary: #E0E6E5;
+$input-placeholder-color: #E0E6E5;
+
+.btn-custom {
+    background-color:#FF5F90;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: darken(#FF5F90, 10%);
+    }
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
