@@ -15,7 +15,7 @@ function displayBlogPosts(posts) {
 
     posts.forEach(post => {
         const postElement = document.createElement('div');
-        postElement.classList.add('post', 'col-md-6', 'col-lg-4', 'd-flex');
+        postElement.classList.add('post', 'col-md-6', 'col-lg-4', 'd-flex', 'p-3');
 
         postElement.innerHTML = `
         
